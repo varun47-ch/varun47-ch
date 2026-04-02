@@ -6,19 +6,45 @@
 
 ---
 
-### 👨‍💻 About Me
+## 👨‍💻 About Me
 
-```javascript
-const varun = {
-  role:        "Full-Stack Developer",
-  education:   "B.Tech ECE + Data Science @ KL University (CGPA: 8.7)",
-  stack:       ["Node.js", "Express.js", "React.js", "MongoDB"],
-  languages:   ["JavaScript", "Java", "C"],
-  currentlyOn: "Building full-stack apps & sharpening DSA",
-  lookingFor:  "Software Engineer / Full-Stack Developer roles",
-  contact:     "varunkumarchimata47@gmail.com",
-};
-```
+<table>
+  <tr>
+    <td>🎓</td>
+    <td><strong>Education</strong></td>
+    <td>B.Tech ECE + Data Science @ KL University &nbsp;|&nbsp; CGPA: 8.7 / 10</td>
+  </tr>
+  <tr>
+    <td>💼</td>
+    <td><strong>Role</strong></td>
+    <td>Full-Stack Developer (MERN Stack)</td>
+  </tr>
+  <tr>
+    <td>🔧</td>
+    <td><strong>Stack</strong></td>
+    <td>Node.js · Express.js · React.js · MongoDB · MySQL</td>
+  </tr>
+  <tr>
+    <td>💻</td>
+    <td><strong>Languages</strong></td>
+    <td>JavaScript · Java · C</td>
+  </tr>
+  <tr>
+    <td>🚀</td>
+    <td><strong>Currently</strong></td>
+    <td>Building full-stack apps &amp; sharpening DSA</td>
+  </tr>
+  <tr>
+    <td>🎯</td>
+    <td><strong>Looking For</strong></td>
+    <td>Software Engineer / Full-Stack Developer roles</td>
+  </tr>
+  <tr>
+    <td>📬</td>
+    <td><strong>Contact</strong></td>
+    <td><a href="mailto:varunkumarchimata47@gmail.com">varunkumarchimata47@gmail.com</a></td>
+  </tr>
+</table>
 
 ---
 
