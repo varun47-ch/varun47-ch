@@ -1,88 +1,112 @@
-🏡 StayNest — Property Listing Web Application
-A full-stack property rental platform inspired by Airbnb, built with the MERN-adjacent stack. Users can browse, create, edit, and delete property listings with full authentication, authorization, image uploads, and server-side validation.
+<div align="center">
 
-Live Demo: [Add your Render/Railway link here]
-GitHub: https://github.com/varun47-ch/Property-Listing-Web-Application-Airbnb-clone-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a3c5e,100:2e86c1&height=200&section=header&text=Varun%20Kumar%20Chimata&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20MERN%20Stack%20%7C%20Java&descAlignY=58&descSize=18" width="100%"/>
 
-📸 Screenshots
-Add screenshots of your homepage, listing page, and login page here
+</div>
 
-✨ Features
-🔐 User Authentication & Authorization — Secure signup/login with Passport.js; route-level access control
-🏠 Full CRUD for Listings — Create, view, edit, and delete property listings
-🖼️ Cloud Image Uploads — Images stored and served via Cloudinary
-✅ Server-side Validation — Input validated using Joi schema before hitting the database
-💬 Reviews & Ratings — Users can leave and delete reviews on listings
-📱 Responsive UI — Mobile-friendly layout using Bootstrap
-🗺️ MVC Architecture — Clean separation of models, views (EJS), and controllers
-🔒 Flash Messages — User-friendly success/error notifications
-🛠️ Tech Stack
-Layer	Technology
-Backend	Node.js, Express.js
-Templating	EJS (Embedded JavaScript)
-Database	MongoDB + Mongoose
-Validation	Joi
-Authentication	Passport.js (Local Strategy)
-Image Storage	Cloudinary + Multer
-Frontend Styling	Bootstrap 5, Custom CSS
-🚀 Getting Started
-Prerequisites
-Node.js v18+
-MongoDB (local or Atlas)
-Cloudinary account (for image uploads)
-Installation
-# 1. Clone the repo
-git clone https://github.com/varun47-ch/Property-Listing-Web-Application-Airbnb-clone-.git
-cd Property-Listing-Web-Application-Airbnb-clone-
+---
 
-# 2. Install dependencies
-npm install
+### 👨‍💻 About Me
 
-# 3. Set up environment variables
-cp .env.example .env
-# Fill in your values (see Environment Variables section)
+```javascript
+const varun = {
+  role:        "Full-Stack Developer",
+  education:   "B.Tech ECE + Data Science @ KL University (CGPA: 8.7)",
+  stack:       ["Node.js", "Express.js", "React.js", "MongoDB"],
+  languages:   ["JavaScript", "Java", "C"],
+  currentlyOn: "Building full-stack apps & sharpening DSA",
+  lookingFor:  "Software Engineer / Full-Stack Developer roles",
+  contact:     "varunkumarchimata47@gmail.com",
+};
+```
 
-# 4. Seed the database (optional)
-node init/index.js
+---
 
-# 5. Start the server
-node app.js
-Environment Variables
-Create a .env file in the root directory:
+### 🛠️ Tech Stack
 
-ATLASDB_URL=your_mongodb_atlas_connection_string
-SECRET=your_session_secret_key
-CLOUD_NAME=your_cloudinary_cloud_name
-CLOUD_API_KEY=your_cloudinary_api_key
-CLOUD_API_SECRET=your_cloudinary_api_secret
-📁 Project Structure
-├── controllers/        # Route handler logic (listings, reviews, users)
-├── models/             # Mongoose schemas (Listing, Review, User)
-├── routes/             # Express routers
-├── views/              # EJS templates
-│   ├── layouts/
-│   ├── listings/
-│   └── users/
-├── public/css/         # Custom stylesheets
-├── utils/              # Error handling utilities
-├── init/               # Database seed data
-├── middleware.js        # Custom auth & validation middleware
-├── schema.js           # Joi validation schemas
-├── cloudConfig.js      # Cloudinary configuration
-└── app.js              # App entry point
-🔮 Upcoming Features
- Booking system with date-range availability
- Payment gateway integration (Razorpay / Stripe)
- Google OAuth login
- Map integration for listing locations
- Admin dashboard
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to change.
+**Frontend**
 
-📄 License
-This project is open source and available under the MIT License.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![Material UI](https://img.shields.io/badge/Material_UI-007FFF?style=for-the-badge&logo=mui&logoColor=white)
 
-👨‍💻 Author
-Varun Kumar Chimata
-📧 varunkumarchimata47@gmail.com
-🔗 LinkedIn | GitHub
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+
+**Database & Cloud**
+
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
+
+**Tools**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+
+---
+
+### 🚀 Featured Projects
+
+| Project | Description | Stack | Live |
+|--------|-------------|-------|------|
+| 🏡 **[StayNest](https://github.com/varun47-ch/Property-Listing-Web-Application-Airbnb-clone-)** | Full-stack property rental platform with auth, image uploads, reviews & CRUD | Node.js · Express · MongoDB · EJS · Cloudinary | [Demo](#) |
+| 🌤️ **[WeatherNow](https://github.com/varun47-ch)** | Real-time weather app with live API integration & responsive UI | React.js · Material UI · REST API | [Demo](#) |
+| 🎵 **[Music Streaming App](https://github.com/varun47-ch/Music_Streaming_App)** | Music streaming interface with playback controls | JavaScript · HTML · CSS | [Demo](#) |
+
+> 🔗 Replace `[Demo](#)` links with your actual deployed URLs on Render / Vercel
+
+---
+
+### 📜 Certifications
+
+- 🤖 **Salesforce AI Associate** — Generative AI, Prompt Engineering & Ethical AI
+- ☕ **Wipro TalentNext** — Full Stack Java (Core Java, OOP, JDBC, Servlets, JSP, REST APIs)
+- 🌐 **JavaScript** — Coursera (DOM, Async/Await, API Integration)
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=varun47-ch&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=varun47-ch&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+<div align="center">
+
+![GitHub Streak](https://streak-stats.demolab.com?user=varun47-ch&theme=tokyonight&hide_border=true)
+
+</div>
+
+---
+
+### 🤝 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/varun-chimata-1a01707332)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:varunkumarchimata47@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/varun47-ch)
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2e86c1,100:1a3c5e&height=100&section=footer" width="100%"/>
+
+*Open to full-stack and software engineering roles — feel free to reach out!*
+
+</div>
